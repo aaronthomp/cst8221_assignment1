@@ -1,0 +1,26 @@
+error: cannot access module-info
+  bad class file: C:\Users\Aaron\OneDrive - Algonquin College\School Work\Level 4\CST8221_302 - Java Application Programming\JavaFX stuff\javafx-sdk-21\lib\javafx.fxml.jar(/module-info.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+error: cannot access module-info
+  bad class file: C:\Users\Aaron\OneDrive - Algonquin College\School Work\Level 4\CST8221_302 - Java Application Programming\JavaFX stuff\javafx-sdk-21\lib\javafx.controls.jar(/module-info.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+javadoc: error - fatal error encountered: java.lang.NullPointerException
+javadoc: error - Please file a bug against the javadoc tool via the Java bug reporting page
+(http://bugreport.java.com) after checking the Bug Database (http://bugs.java.com)
+for duplicates. Include error messages and the following diagnostic in your report. Thank you.
+java.lang.NullPointerException
+	at jdk.compiler/com.sun.tools.javac.comp.Modules.addVisiblePackages(Modules.java:1565)
+	at jdk.compiler/com.sun.tools.javac.comp.Modules.initVisiblePackages(Modules.java:1551)
+	at jdk.compiler/com.sun.tools.javac.comp.Modules$3.complete(Modules.java:1430)
+	at jdk.compiler/com.sun.tools.javac.code.Symbol.complete(Symbol.java:642)
+	at jdk.compiler/com.sun.tools.javac.comp.Modules.enter(Modules.java:272)
+	at jdk.compiler/com.sun.tools.javac.comp.Modules.initModules(Modules.java:233)
+	at jdk.javadoc/jdk.javadoc.internal.tool.ElementsTable.scanSpecifiedItems(ElementsTable.java:452)
+	at jdk.javadoc/jdk.javadoc.internal.tool.JavadocTool.getEnvironment(JavadocTool.java:188)
+	at jdk.javadoc/jdk.javadoc.internal.tool.Start.parseAndExecute(Start.java:576)
+	at jdk.javadoc/jdk.javadoc.internal.tool.Start.begin(Start.java:432)
+	at jdk.javadoc/jdk.javadoc.internal.tool.Start.begin(Start.java:345)
+	at jdk.javadoc/jdk.javadoc.internal.tool.Main.execute(Main.java:63)
+	at jdk.javadoc/jdk.javadoc.internal.tool.Main.main(Main.java:52)
